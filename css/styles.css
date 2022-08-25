@@ -11,6 +11,7 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
+    
 }
 h1 {
     margin: 0;
@@ -34,6 +35,14 @@ h3 {
      
 
 }
+hr {
+    border-color: #EAF6F6;
+    width: 13%;
+    border-style: dotted none none none;
+     
+     
+    border-width: 10px;
+}
  
 .heading {
     
@@ -51,12 +60,12 @@ h3 {
  
 .cloudimage {
     position: absolute;
-    left: 190px;
-    bottom: 170px;
+    left: 290px;
+    bottom: 300px;
 }
 .cloudimage2 {
     position: absolute;
-    right: 200px;
+    right: 360px;
     bottom: 250px;
 }
 
@@ -116,7 +125,8 @@ h3 {
 }
 
 
-/* btn starts */
+/*********************************** btn starts *******************************************/
+
 
 .btn {
     background: #2bc4ad;
@@ -128,7 +138,7 @@ h3 {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -145,20 +155,18 @@ h3 {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-.profile {
+
+
+  /******************************* button code ends **************************************/
+
+
+  .profile {
     line-height: 2;
     padding-bottom: 60px;
     width: 50%;
     margin: auto;
 }
-hr {
-    border-color: #EAF6F6;
-    width: 13%;
-    border-style: none;
-    border-top-style: dotted;
-     
-    border-width: 10px;
-}
+
 .skills {
     margin-top: 5rem;
 }
@@ -168,10 +176,10 @@ hr {
 }
 .bottom-container{
     height: 100px;
-    margin: 100px auto 35px auto;
+    margin: 100px auto 0 auto;
     line-height: 2;
     background-color: #66BFBF;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 .contact-me {
     width: 50%;
@@ -180,23 +188,17 @@ hr {
 }
 .copyright {
     color: #EAF6F6;
-}
-.footer-link{
-    color: #11999E;
-    text-decoration: none;
-    position: absolute;
-    left: 38%;
+    padding: 20px 0 0px 0;
+    font-size: .79rem;
     
 }
-.footer-link2{
+a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 20px;
     text-decoration: none;
-     
 }
-.footer-link3{
-    color: #11999E;
-    text-decoration: none;
-    position: absolute;
-    right: 38%;
-    
+
+a:hover {
+    color: #EAF6F6;
 }

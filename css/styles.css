@@ -258,8 +258,8 @@ a:hover {
 
 .navbar {
     background-color: #66BFBF !important;
-    height: 4.375rem !important;
-    width: auto !important;
+    
+  
 }
 .bootstrap {
     margin-left: 50px;
@@ -317,3 +317,7 @@ a:hover {
   }
 
   /************************* 404 error page ends ****************/
+
+.navbar-nav {
+    margin-right: 20px !important;
+}

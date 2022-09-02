@@ -354,17 +354,33 @@ a:hover {
 .intro-animation1 {
     position: relative;
     top: 4rem;
+     
     padding-bottom: 0;
 }
 .intro-animation2 {
     position: relative;
     top: 4rem;
-    left: 3.8rem;
+     
     padding-bottom: 0;
      
 }
 .intro-box {
      
-    padding-bottom: 0;
+     
+    
     
 }
+.intro-image1 {
+    height: 150px;
+    width: 150px;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+.intro-image2 {
+    height: 150px;
+    width: 150px;
+    margin-top: 8rem;
+    margin-right: 5rem;
+}
+  
+  

@@ -1,386 +1,289 @@
-.container1 {
-    background-color: #E4F6F6;
-    position: relative;
-    padding-top: 100px;
-   
-    
-    
 
+.navbar a:hover , li:hover{
+    color: red;
+    background-color: transparent;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* margin right for the ul in the navbar */
+
+.navbar-nav {
+    margin-right: 10px !important;
+}
+
+/* margin for the navbar anchor tags */
+
+.navbar a{
+    margin: 15px 20px;
+}
+
+/* class for a */
+
+.nav-link{
+    color: black;
 }
  
+
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
-    
-}
-h1 {
-    margin: 0;
-   
-    font-family: 'Montserrat', sans-serif;
-    color: #66BFBF;
-    
-
-    
-}
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    color: #66BFBF;
-
+    font-family: 'Merriweather', serif;    
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 0px;
-    padding-top: 10px;
-    margin-bottom: 0px;
-     
-
+.nav-link:focus{
+    color: black;
 }
-hr {
-    border-color: #EAF6F6;
-    width: 13%;
-    border-style: dotted none none none;
-     
-     
-    border-width: 10px;
-}
- 
-.heading {
-    
-    margin: 50px auto 40px auto;
-    font-family: 'Sacramento', cursive;
-    line-height: 2rem;
-    font-weight: bold;
-
-    
-    
-    font-size: 5.5rem;
-}
-
- 
- 
- 
-.cloudimage {
-    position: absolute;
-    left: 290px;
-    bottom: 300px;
-}
-.cloudimage2 {
-    position: absolute;
-    right: 360px;
-    bottom: 250px;
-}
-
-.cloudimage3 {
-    position: absolute;
-    left: 350px;
-    top: 230px;
-}
-.cloudimage1 {
-    position: absolute;
-    left: 800px;
-    top: 21px;
-}
-.profilephoto {
-    margin: auto;
-   
-     
-}
-.skillsphoto {
-     
-    border-radius: 50%;
-    width: 25%;
-    float: left;
-     
-    margin-right: 70px;
-}
-.skillsphoto2 {
-     
-    border-radius: 50%;
-    width: 25%;
-    float: right;
-    margin-left: 70px;
-}
- 
- 
-.skills2 {
-    font-size: 32px;
-    font-family: 'Montserrat', sans-serif;
-}
-
- 
-.h2a{
-    font-size: 2.5rem;
-    color: #66BFBF;
-    
-
-}
-.footer-link {
-    color: #11999E;
-}
-.skill-row2 {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    
-}
-.skill-row1 {
-    width: 50%;
-    margin: 85px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    
-}
-
-/*********************************** btn starts *******************************************/
-
-
-.btn {
-    background: #2bc4ad;
-    background-image: -webkit-linear-gradient(top, #2bc4ad, #11999e);
-    background-image: -moz-linear-gradient(top, #2bc4ad, #11999e);
-    background-image: -ms-linear-gradient(top, #2bc4ad, #11999e);
-    background-image: -o-linear-gradient(top, #2bc4ad, #11999e);
-    background-image: linear-gradient(to bottom, #2bc4ad, #11999e);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 5px 10px 10px 10px;
-    text-decoration: none;
-    
-    
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-
-  /******************************* button code ends **************************************/
-
-
-  .profile {
-    line-height: 2;
-    padding-bottom: 70px;
-    width: 50%;
-    margin: auto;
-}
-
-.skills {
-    margin-top: 5.1rem;
-}
-.myskills {
-    font-weight: bolder;
-    font-size: xx-large;
-    padding-bottom: 0px;
-    margin-bottom: 2.4375rem;
-    
-}
-.bottom-container{
-    height: 100px;
-    margin: 100px auto 0 auto;
-    line-height: 2;
-    background-color: #66BFBF;
-    padding-top: 25px;
-}
-.contact-me {
-    width: 50%;
-    margin: 70px auto 35px auto;
-    line-height: 2;
-}
-.copyright {
-    color: #EAF6F6;
-    padding: 20px 0 0px 0;
-    font-size: .79rem;
-    
-}
-a {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 15px 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #EAF6F6;
-}
-.middle-container {
-    line-height: 2;
-} 
-.middle-container-1 {
-    padding-top: 10px;
-}
-.middle-container-2 {
-     margin: 20px auto 10px auto;
-      
-}
-.hello {
-    font-size: 35px;
-    font-weight: bold;
-}
-.hra {
-    border-color: #5cbfbf;
-    width: 13%;
-    border-style: dotted none none none;
-     
-     
-    border-width: 10px;
-    margin: auto;
-    
-}
-.myskills-1 {
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-.btn {
-    height: 40px;
-    width: 160px;
-}
-.myskills-1 {
-    padding-top: 1.2em;
-}
-
 .navbar {
-    background-color: #66BFBF !important;
-    
-  
+    background-color: white;
 }
 .bootstrap {
     margin-left: 50px;
 }
 
-/**************** 404 error page starts ***************************/
 
-/*======================
-    404 page
-=======================*/
+/* below 2  handles toggle button */
 
-.page_404 {
-    padding: 40px 0;
-    background: #ffffff !important;
-    font-family: "Arvo", serif;
-  }
-  
-  .page_404 img {
-    width: 100%;
-  }
-  
-  .four_zero_four_bg {
-    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 400px;
-    background-position: center;
-    background-color: #66BFBF !important;
-  }
-  
-  .four_zero_four_bg h1 {
-    font-size: 80px;
-  }
-  
-  .four_zero_four_bg h3 {
-    font-size: 80px;
-  }
-  
-  .link_404 {
-    color: rgb(255, 255, 255) !important;
-    padding: 10px 20px;
-    background: #4ea749;
-    margin: 20px 0;
-    display: inline-block;
-    border-radius: 10%;
-    text-decoration: none !important;
-  }
-  .link_404:hover {
-    color: #000000 !important;
-    background: #11fd00;
-  }
-  .contant_box_404 {
-    margin-top: -50px;
-  }
-  .text-center {
-    color: black !important;
-  }
+.navbar-toggler-icon{
+    background-image: url("menu.png");
+    background-color: transparent;
+    border: none;
+    transform: scale(1.5);
 
-  /************************* 404 error page ends ****************/
-
-.navbar-nav {
-    margin-right: 20px !important;
+}
+.navbar-toggler{
+    border: none;
+    border-color: transparent;
 }
 
-
-/* intro */
-
-#intro {
-    background-color: #EAF6F6;
-     padding: 5% 5%;
-     height: fit-content;
-     
+/* nav section ends */
+.container1 {
+    background-color: #e4f7f2;
+    position: relative;
+    padding-top: 100px;
+    padding: 5%;
+    text-align: left;
 }
-
-.heading1 {
-    margin: 130px 20px 40px auto;
-    font-family: 'Sacramento', cursive;
-    line-height: 2rem;
+.container1 img{
+    
+    width: 96%;
+}
+.container1 div1{
+    padding-left: 3%;
+}
+ 
+.container1 h1{
+    font-size: 3rem;
+     line-height: 4rem;
     font-weight: bolder;
-    margin-left: rem;
+}   
+ 
+.col-lg-6{
+    padding: 2% ;
+}
+.amigo-fnt{
+    color: #409187;
+    
+     
+}
 
+.div1-btn{
+    background: #2bc4ad;
+    background-image: -webkit-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -moz-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -ms-linear-gradient(top, #ed7640, #ed7640);
+    background-image: -o-linear-gradient(top, #ed7640, #ed7640);
+    background-image: linear-gradient(to bottom, #ed7640, #ed7640);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #100e0e;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
     
-    
-    font-size: 8rem;
 }
-.sub-heading1 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 1.6rem;
-    margin-top: 3rem;
+ 
 
-}
-.intro-animation1 {
-    position: relative;
-    top: 4rem;
-     
-    padding-bottom: 0;
-}
-.intro-animation2 {
-    position: relative;
-    top: 4rem;
-     
-    padding-bottom: 0;
-     
-}
-.intro-box {
-     
-     
-    
+.div1-btn a{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
     
 }
-.intro-image1 {
-    height: 150px;
-    width: 150px;
-    margin-top: 8rem;
-    margin-left: 5rem;
+.div1-btn:hover{
+    background: #f34928;
+    background-image: -webkit-linear-gradient(top, #f34928, #f34928);
+    background-image: -moz-linear-gradient(top, #f34928, #f34928);
+    background-image: -ms-linear-gradient(top, #f34928, #f34928);
+    background-image: -o-linear-gradient(top, #f34928, #f34928);
+    background-image: linear-gradient(to bottom, #f34928, #f34928);
+    text-decoration: none;
+    color: #080505;
 }
-.intro-image2 {
-    height: 150px;
-    width: 150px;
-    margin-top: 8rem;
-    margin-right: 5rem;
+/* first section ends here */
+
+/* handles responsiveness */
+
+@media(min-width: 1350px){
+    .container1 h1{
+        font-size: 4rem;
+        line-height: 130%;
+    }
+    .container1 img{
+        margin-top: -7%;
+        margin-left: 7%;
+    }
+    .container1 p{
+        font-size: 2rem;
+    }
+    .div1-btn a{
+        font-size: 2rem;
+    }
+    .div1-btn{
+        margin-top: 4%;
+    }
+    navbar img{
+        width: 50%;
+    }
+    .bootstrap{
+        width: 5%;
+        height: 2%;
+        margin-left: 100px;
+    }
+    .navbar a{
+        font-size: 1.5rem;
+    }
+    
 }
+
+/* second section starts */
+
+ 
+.card img{
+    width: 100%;
+}
+
+#blogs{
+    padding-top: 10%;
+}
+
+.blogs-heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* second sections ends */
+
+  /* why use amigo starts  */
+
+  .main-container h2{
+    color: black;
+    font-weight: bolder;
+  }
+  .main-container i{
+    color: rgb(14, 242, 204);
+  }
+  #why-use-amigo{
+    background-color: #e8f6f2;
+    padding-top: 6%;
+    padding-bottom: 1%;
+  }
+  
+  /* images styles */
+
+  .p6{
+    width: 35%;
+  }
+  .college{
+    width: 30%;
+  }
+  .approved{
+    width: 30%;
+  }
+ 
+  .sect-div{
+    padding-top: 5%;
+    padding-bottom: 4%;
+  }
+ 
+
+  /* why use amigo ends  */
+
+   /* About Amigo starts  */
+ 
+
+    .about-amigo{
+        padding-top: 5%;
+    }
+    #aboutamigo{
+        background-color: #fbf3eb;
+    }
+
+    .services-section .card-box{
+        padding: 4rem  2.4rem 3rem!important;
+        border-radius: .5rem!important;
+    }
+    .services-section{
+        padding: 6rem 0 3rem 0!important;
+    }
+    .common-heading {
+        font-size: 4rem;
+        color: #2bc4ad;
+        font-weight: bolder;
+        margin-top: -3%;
+        margin-bottom: 4%;
+    }
+    
+    
+
+   /* About Amigo ends  */
+
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black; 
+}
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
   
   
